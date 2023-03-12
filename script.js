@@ -1,17 +1,47 @@
 "use strict";
 
-const n1 = 1;
-const n2 = 2;
+function hello() {
+  return "Hello, World!";
+}
 
-const s1 = "1";
-const s2 = "2";
+console.log(hello());
 
-console.log(n1 + n2);
-console.log(s1 + s2);
+const firstName = "Daniel";
+const lastName = "Javier";
 
-console.log("" + 1 + 0);
-console.log("" - 1 + 0);
-console.log(true + false);
-console.log(6 / "3");
-console.log(" 2 " * " 3 ");
-console.log(4 + 5 + "px");
+const fullName = `${firstName} ${lastName}`;
+
+console.log(fullName);
+
+let x = 3;
+let y = 6;
+
+console.log(x + y);
+
+let myString = "This is a string";
+console.log(myString);
+console.log(typeof myString);
+
+let myNumber = 44;
+console.log(myNumber);
+console.log(typeof myNumber);
+
+let myBoolean = false;
+console.log(myBoolean);
+console.log(typeof myBoolean);
+
+let favoriteFoods = ["popcorn", "fries", "burger"];
+console.log(favoriteFoods[2]);
+
+function numberValue() {
+  let number = 4;
+
+  if (number > 0) {
+    return "positive";
+  } else if (number < 0) {
+    return "negative";
+  } else {
+    return "zero";
+  }
+}
+console.log(numberValue());
