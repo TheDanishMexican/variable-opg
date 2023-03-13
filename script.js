@@ -45,3 +45,29 @@ function numberValue() {
   }
 }
 console.log(numberValue());
+
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+function adding() {
+  let a = 5;
+  let b = 10;
+
+  return a + b;
+}
+console.log(adding());
+
+let person = {
+  height: 183,
+  shoeSize: 10,
+  number: 3,
+};
+
+console.log(person.shoeSize);
+console.log(person.height);
+console.log(person.number);
+
+document
+  .querySelector("#btn")
+  .addEventListener("click", alert("Hello, World!"));
